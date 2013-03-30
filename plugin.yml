@@ -1,0 +1,13 @@
+name: AdminConsolePlus
+main: plugin.bleachisback.end.EndMain
+version: 1.0
+commands:
+    resetend:
+        description: Resets The End, but does not regenerate the world or the dragon
+        usage: /<command>
+        aliases: re
+        permission: end.reset
+permissions:
+    end.reset:
+        description: Allows the use of /resetend
+        default: op
