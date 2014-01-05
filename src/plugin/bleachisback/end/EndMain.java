@@ -379,7 +379,7 @@ public class EndMain extends JavaPlugin implements Listener
 				}
 				stage=EndStage.DURING_TWO;
 				//Creates 10 eggs and pillars to spawn dragons
-				loop: for(int i=0;i<10;i++)
+				loop: for(int i=0;i<5;i++)
 				{
 					final int x=loc.getBlockX()+(new Random()).nextInt(129)-64;
 					final int z=loc.getBlockZ()+(new Random()).nextInt(129)-64;
